@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mr-5 {
+  margin-right: 5px; 
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.close-form {
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+}
+
+.btn {
+  outline: none !important;
+}
+
+td span {
+  cursor: pointer;
+}
+
+.sort-selected::after {
+  content: '\f00c';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px 0px 0px 10px;
+  display: inline-block;
+}
